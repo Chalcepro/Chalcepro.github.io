@@ -1,0 +1,97 @@
+body{
+    background: #A17552ff !important;
+    margin-top:20px;
+}
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0 solid transparent;
+    border-radius: .25rem;
+    margin-bottom: 1.5rem;
+    /* box-shadow: 0 2px 6px 0 rgba(119, 86, 15, 0.65), 0 2px 6px 0 rgb(206 206 238 / 54%); */
+}
+.me-2 {
+    margin-right: .5rem !important;
+}
+
+.counter{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+    border: 2px solid rgb(192, 116, 116);
+  
+    position: fixed;
+    top: 0;
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+
+  #androidCounter{
+    margin-top: 50px; 
+
+    right: -25px;
+    background-color: #1C1A1Bff; 
+    position: fixed; 
+    padding-top: 10px;
+    padding-left: 25px;
+    z-index: 1;
+
+    border-top: 3px solid;
+    border-left: 3px solid;
+    border-bottom: 3px solid;
+
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+    color: #CFB094ff;
+    transition: 300ms ease-in-out;
+  }
+
+
+#order-button {
+    padding: 5px 25px;
+    border-radius: 60px;
+    border: 6px solid rgb(233, 230, 230);
+    background-color: rgb(19, 18, 18);
+    color: white;
+    margin: 5px 0;
+}
+  
+#order-button1 {
+    padding: 5px 25px;
+    border-radius: 60px;
+    border: 2px solid #A17552ff;
+    color: rgb(19, 18, 18);
+    background-color: rgba(255, 255, 255, 0);
+    margin: 5px 0;
+}
+
+.nav-link:hover {
+    color: #1C1A1Bff !important;
+}
+  
+
+       /* scroll bar */
+       ::-webkit-scrollbar {
+        width: 5px; /* Width of the scrollbar */
+      }
+      
+      ::-webkit-scrollbar-track {
+        background: #f1f1f1; /* Background of the scrollbar track */
+      }
+      
+      ::-webkit-scrollbar-thumb {
+        background-color:  rgb(44, 44, 44); /* Scrollbar thumb (the draggable part) */
+        border-radius: 10px; /* Rounded corners on the scrollbar */
+      }
+      
+      ::-webkit-scrollbar-thumb:hover {
+        background: #555; /* Darken the thumb on hover */
+      }
+      

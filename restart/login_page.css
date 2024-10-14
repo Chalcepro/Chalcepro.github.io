@@ -1,0 +1,57 @@
+#moveing{
+    width: fit-content;
+    justify-self: center;
+}
+
+.underline {
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    margin-top: 10px;
+}
+
+.counter{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+    border: 2px solid rgb(192, 116, 116);
+  
+    position: fixed;
+    top: 0;
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+
+#exampleInputPassword1, #exampleInputEmail1{
+    border: 2px solid black;
+    border-radius: 0;
+}
+
+#order-button {
+    padding: 5px 25px;
+    border-radius: 60px;
+    border: 6px solid white;
+    background-color: rgb(19, 18, 18);
+    color: white;
+    margin: 5px 0;
+  }
+
+         /* scroll bar */
+::-webkit-scrollbar {
+    width: 5px; /* Width of the scrollbar */
+  }
+  
+  ::-webkit-scrollbar-track {
+  background: #f1f1f100; /* Background of the scrollbar track */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color:  rgb(44, 44, 44); /* Scrollbar thumb (the draggable part) */
+    border-radius: 10px; /* Rounded corners on the scrollbar */
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Darken the thumb on hover */
+  }
+  
