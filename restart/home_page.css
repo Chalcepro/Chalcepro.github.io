@@ -164,9 +164,9 @@
     /* -webkit-text-fill-color: transparent; */
 
     @media (max-width: 886px) {
-        height: 140px;
-        line-height: 70px;
-        font-size:80px;
+        height: 100px;
+        line-height: 50px;
+        font-size:10px;
         font-weight: 800;
         margin-top: 20px;
     }
@@ -438,19 +438,20 @@
 }
 
 #decription1{
-    line-height: 1.5;
+    line-height: 1;
     @media (max-width: 886px) {
-        font-size:30px;
+        font-size:10px;
     }
 }
 
 #decription2{
     line-height: 1;
     @media (max-width: 686px) {
-        font-size:24px;
+        font-size:10px;
     }
 }
-#Imageholder {
+
+/* #Imageholder {
     position: relative;
     margin-top: 100px;
     overflow: hidden; /* Ensures no overflow */
@@ -463,7 +464,7 @@
     width: 100%;
     height: auto;
     transition: 1s;
-  }
+  } */
   
   .cardinal {
     position: absolute; /* Position the card absolutely */

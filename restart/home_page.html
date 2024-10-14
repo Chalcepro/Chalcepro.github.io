@@ -18,14 +18,14 @@
 
 /* --------------------------------------------------------------------- */ -->
 </head>
-<body style="background-color: #A17552ff; overflow-x: hidden; padding-top: 60px;">
+<body style="background-color: #A17552ff; padding-top: 60px; overflow-x: hidden;">
   <!-- <div class="container-fluid fw-bold text-center d-none d-sm-none d-md-block d-lg-block" id="lounge-animation"><h1>Welcome</h1></div>
   <div class="container-fluid fw-bold text-center d-block d-sm-block d-md-none d-lg-none" id="lounge-animation2"><h1>Welcome</h1></div> -->
 
-  <div class="d-flex justify-content-between" id="slindInContainer">
+  <!-- <div class="d-flex justify-content-between" id="slindInContainer">
     <img src="/img/cup.png" alt="coffeeDesign" class="px-5" width="30%" id="animRotation">
     <img src="/img/cup.png" alt="coffeeDesign" class="px-5" width="30%" id="animRotation">
-  </div>
+  </div> -->
 
 
       <div class="popuoNotifier px-2 text-light text-center" id="notification" onclick="jumpTo2()">
@@ -87,15 +87,15 @@
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
       
       
-      <nav class="navbar navbar-collapse navbar-default border-0 p-3" style="width: 100%; position:absolute; top:0;">
+      <nav class="navbar navbar-collapse navbar-default border-0 p-3" style="width: 100%; position: fixed; top:0;">
         <div class="container-fluid">
           <a href="home_page.html">
-            <img src="/restart/img/Frame 23.png" alt="Bootstrap" width="100" style="position: relative; top: 0; left: 0;">
-        </a>
+            <img src="/restart/img/Frame 23.png" alt="Bootstrap" width="100" style="position: fixed; top: 5px; left: 0;">
+          </a>
           <!-- Brand and toggle get grouped for better mobile display -->
 
           <div class="navbar-header" id="complex">
-            <button style="margin-left: 252px;" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <button style="position: fixed; right: 0; top: 0;" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
               <span class="sr-only">Toggle navigation</span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
@@ -135,12 +135,12 @@
   </nav>
 
 
-  <a href="javascript:void(0)"><div class="d-block d-sm-block d-md-none d-lg-none" id="androidCounter" onclick="openTab()" ondblclick="closeTab()">
+  <!-- <a href="javascript:void(0)"><div class="d-block d-sm-block d-md-none d-lg-none" id="androidCounter" onclick="openTab()" ondblclick="closeTab()">
     <a href="order_page.html">
       <div class="d-flex display-2"><p class="text-light">4</p></div>
     </a>
   </div>
-</a>
+</a> -->
 
   <!-- secondary navbar start -->
 
@@ -212,85 +212,14 @@
         <span style="--i:29;"></span>
       </div> -->
 
-      <div class="text-center">
-        <p class="text-center display-1" id="lineee1"><span>KOFFEE</span> & TEA</p>
-        <p class="text-center display-1 text-light" id="decription1">Fueling Your Day with the Perfect Blend of <br><span style="color: rgb(44, 23, 6); font-size: 50px; font-weight: 600;">Koffee<span style="color: rgb(255, 255, 255);  font-size: 30px;">&</span>Tea</span></p>
+      <div class="text-center conatiner-fluid">
+        <p class="text-center display-2" id="lineee1"><span>KOFFEE</span> & TEA</p>
+        <p class="text-center display-3 text-light" id="decription1">Fueling Your Day with the Perfect Blend of <br><span style="color: rgb(44, 23, 6); font-size: 50px; font-weight: 600;">Koffee<span style="color: rgb(255, 255, 255);  font-size: 30px;">&</span>Tea</span></p>
         <h1><a href="shop_page.html"><button class="display-2" id="main-button">Order Now</button></a></h1>
       </div>
-        <!-- <section id="popular-products" class="py-5">
-          <div class="container text-center"> -->
- <!--           <div class="row">
-              Product 1
-               <div class="col-md-3"
-                <div class="card cardio rounded-5 overflow-hidden">
-                  <img src="/restart/img/image 5.jpg" class="img-fluid p-0" alt="Espresso">
-                  <div class="card-body cardio-body">
-                    <h5 class="card-title fw-bolder display-5" style="color: #EDD3BCff; text-transform: uppercase;">Espresso</h5>
-                    <p class="card-text text-light">A bold espresso shot to awaken your senses.</p>
-
-                    <button id="order-button">Order Now</button>
-                  </div>
-                </div>
-              </div>
-
-              <div class="d-none d-sm-block d-md-none d-lg-none" style="height: 50px;"></div>
 
 
-              Product 2
-              <div class="col-md-2">
-                <div class="card cardio rounded-5 overflow-hidden">
-                  <img src="/restart/img/image.jpg" class="img-fluid p-0" alt="Latte">
-                  <div class="card-body cardio-body">
-                    <h5 class="card-title fw-bolder display-5" style="color: #EDD3BCff; text-transform: uppercase;">Latte</h5>
-                    <p class="card-text text-light">Smooth, creamy latte perfect for any day.</p>
-
-                    <button id="order-button">Order Now</button>
-                  </div>
-                </div>
-              </div>
-
-              <div class="d-none d-sm-block d-md-none d-lg-none" style="height: 50px;"></div> -->
-
-              <!-- 
-              Product 3
-              <div class="col-md-4">
-                <div class="card cardio rounded-5 overflow-hidden">
-                  <img src="/restart/img/GRL2 1.jpg" class="img-fluid p-0" alt="Latte">
-                  <div class="card-body cardio-body">
-                    <h5 class="card-title fw-bolder display-5" style="color: #EDD3BCff; text-transform: uppercase;">Latte</h5>
-                    <p class="card-text text-light">Simple but stylish americano made for luxury</p>
-
-                    <button id="order-button">Order Now</button>
-                  </div>
-                </div>
-              </div>
-
-              <div class="d-none d-sm-block d-md-none d-lg-none" style="height: 50px;"></div>
-
-              Product 4
-              <div class="col-md-4">
-                <div class="card cardio rounded-5 overflow-hidden">
-                  <img src="/restart/img/image 11.jpg" class=" img-fluid p-0" alt="GreenTea">
-                  <div class="card-body cardio-body">
-                    <h5 class="card-title fw-bolder display-5" style="color: #EDD3BCff; text-transform: uppercase;">Green Tea</h5>
-                    <p class="card-text text-light">Rich cappuccino topped with velvety foam.</p>
-
-                    <button id="order-button">Order Now</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section> -->
-
-       
-
-
-        <div class="container-fluid text-center px-0 pb-5" style="background-color: #1C1A1Bff; margin-top: 70px; z-index: 1;">
-          <div class="container-fluid" id="cooool">
-
-          </div>
-
+        <div class="container-fluid text-center px-0 pb-5 mx-0" style="background-color: #1C1A1Bff; margin-top: 70px; z-index: 1;">
           <!-- secondary navbar start -->
 
   <nav class="navbar d-none d-sm-none d-md-block d-lg-block rounded-0 pb-5" id="secondNav">
@@ -327,7 +256,7 @@
 
   <!-- secondary navbar end -->
 
-          <div class="row align-items-center">
+          <div class="row align-items-center m-0">
             <div class="col">
 
                 <div class="card cardio container-fluid p-0 rounded-5 overflow-hidden my-5" style="width: 30rem;">
@@ -681,42 +610,44 @@
             <!--  /.row -->
         </div>
 
+
+
         
-        <div class="container-fluid pb-5 text-center" id="lounge">
+  <div class="container-fluid pb-5 text-center" id="lounge">
 
             <!-- secondary navbar start -->
 
-  <nav class="navbar d-none d-sm-none d-md-block d-lg-block rounded-0" id="secondNav" style="padding-bottom: 60px;">
-    <div class="container-fluid" style="height: 60px;" id="lounge">
-      <ul class="nav justify-content-between">
-        <li class="nav-item px-2">
-          <a class="hovNav1 nav-link text-light rounded-5 text-white fw-bold" aria-current="page" href="#popularOrders">Popular Order</a>
-        </li>
-        <li class="nav-item px-2">
-          <a class="hovNav1 nav-link text-light rounded-5 text-white fw-bold" href="#fromBlog">Latast From Blog</a>
-        </li>
-        <li class="nav-item px-2">
-          <a class="hovNav1 nav-link text-light rounded-5 text-white fw-bold" href="#lounge">The Lounge</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
+      <nav class="navbar d-none d-sm-none d-md-block d-lg-block rounded-0" id="secondNav" style="padding-bottom: 60px;">
+        <div class="container-fluid" style="height: 60px;" id="lounge">
+          <ul class="nav justify-content-between">
+            <li class="nav-item px-2">
+              <a class="hovNav1 nav-link text-light rounded-5 text-white fw-bold" aria-current="page" href="#popularOrders">Popular Order</a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="hovNav1 nav-link text-light rounded-5 text-white fw-bold" href="#fromBlog">Latast From Blog</a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="hovNav1 nav-link text-light rounded-5 text-white fw-bold" href="#lounge">The Lounge</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
 
-  <nav class="navbar d-block d-sm-block d-md-none d-lg-none rounded-0 pb-5" id="secondNav1">
-    <div class="container-fluid" style="height: 60px;" id="loungeAn">
-      <ul class="nav justify-content-center">
-        <li class="nav-item px-2">
-          <a class="hovNav2 nav-link text-light rounded-5 text-white fw-bold" aria-current="page" href="#popularOrdersAn">Popular Order</a>
-        </li>
-        <li class="nav-item px-2">
-          <a class="hovNav2 nav-link text-light rounded-5 text-white fw-bold" href="#fromBlogAn">Latast From Blog</a>
-        </li>
-        <li class="nav-item px-2">
-          <a class="hovNav2 nav-link text-light rounded-5 text-white fw-bold" href="#loungeAn">The Lounge</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
+      <nav class="navbar d-block d-sm-block d-md-none d-lg-none rounded-0 pb-5" id="secondNav1">
+        <div class="container-fluid" style="height: 60px;" id="loungeAn">
+          <ul class="nav justify-content-center">
+            <li class="nav-item px-2">
+              <a class="hovNav2 nav-link text-light rounded-5 text-white fw-bold" aria-current="page" href="#popularOrdersAn">Popular Order</a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="hovNav2 nav-link text-light rounded-5 text-white fw-bold" href="#fromBlogAn">Latast From Blog</a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="hovNav2 nav-link text-light rounded-5 text-white fw-bold" href="#loungeAn">The Lounge</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
 
   <!-- secondary navbar end -->
 
@@ -774,28 +705,6 @@
           <p></p>
         </div>
         
-
-      </div>
-
-      <!-- <div class="d-block d-sm-block d-md-none d-lg-none text-center">
-        <p class="text-center display-1" id="lineee"><span>KOFFEE</span> & TEA</p>
-        <p class="text-center display-1 text-light" id="decription2">Fueling Your Day with the Perfect Blend of <br><span style="color: rgb(44, 23, 6); font-size: 50px; font-weight: 600;">Koffee<span style="color: rgb(255, 255, 255);  font-size: 30px;">&</span>Tea</span></p>
-        <h1><button class="display-2" id="main-button">Order Now</button></h1>
-
-        <div class="gap-4 justify-content-center d-block">
-          <div class="container-fluid d-flex justify-content-center" id="Imageholder" style="padding: 50px;">
-            <div class="Image_darken d-flex justify-content-center">
-              <img src="/restart/img/coffee 2 edsc.png" class="img-fluid rounded-5" alt="...">
-              <p class="fw-bold" id="textInside">ESPRESSO</p>
-            </div>
-            <div class="card-body cardinal p-3">
-              <p class="card-text">A rich, bold espresso shot crafted to awaken your senses, perfect for a quick energy boost</p>
-              <button id="order-button">Order Now</button>
-            </div>
-          </div>
-        </div> -->
-        
-      </div>
     </div>
 
 
