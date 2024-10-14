@@ -185,7 +185,7 @@ body{
   100%{
     transform: translateY(-1000in);
     letter-spacing: 0.2em;
-    scale: 1.02;
+    scale: 1;
   }
 }
 
@@ -219,7 +219,7 @@ body{
   
 @keyframes spaceee {
   0%{
-    letter-spacing: 0;
+    letter-spacing: -0.1;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -239,7 +239,7 @@ body{
     color: black;
   }
   90%{
-    letter-spacing: 0.2em;
+    letter-spacing: 0.1em;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -251,8 +251,8 @@ body{
   }
   100%{
     transform: translateY(-1000in);
-    letter-spacing: 0.2em;
-    scale: 1.02;
+    letter-spacing: 0.1em;
+    scale: 1;
   }
 }
 
