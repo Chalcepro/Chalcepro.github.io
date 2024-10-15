@@ -45,6 +45,34 @@ if (hide2 == true){
 
 
 
+// chatbot
+
+function sendUserInput() {
+    var userInput = document.getElementById("user-input").value;
+
+    // Send the user input to the Flask server
+    fetch('http://127.0.0.1:5000/get-response', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ user_input: userInput }),
+    })
+    .then(response => response.json())
+    .then(data => {
+        // Get the chatbot response and display it
+        var chatWindow = document.getElementById("chat-window");
+        chatWindow.innerHTML += "<p><strong>User:</strong> " + userInput + "</p>";
+        chatWindow.innerHTML += "<p><strong>Bot:</strong> " + data.response + "</p>";
+
+        // Clear the input field
+        document.getElementById("user-input").value = '';
+    })
+    .catch((error) => {
+        console.error('Error:', error);
+    });
+
+
 
 // notifiction
 
