@@ -1,8 +1,8 @@
 
-body, html {
+body{
     margin: 0;
     padding: 0;
-    height: 100%; /* Make sure body and html fill the entire viewport */
+    height: fit-content; /* Make sure body and html fill the entire viewport */
   }
 
 footer{
@@ -73,12 +73,12 @@ footer{
 #AboutImg{
     position: absolute;
     top: 0;
-    transform: translateY(60px);
+    transform: translateY(30px);
     scale: 0.8;
     @media (max-width: 900px) {
-      scale: 1;
+      scale: 1.05;
       top: 0;
-      transform: translateY(120px);
+      transform: translateY(140px);
     }
   }
 
