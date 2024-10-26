@@ -3,7 +3,8 @@ window.onload = function moveToPosition(){
     document.getElementById("imageDesign").style.marginBottom = "50%";
     document.getElementById("imageDesign").style.width = "40%";
     document.getElementById("imageDesign").style.display = "block";
-    document.getElementById("imageDesign").style.zIndex = "11111";
+    document.getElementById("imageDesign").style.zIndex = "111111";
+    document.getElementById("stopo").style.overflow = "auto";
 
     let element = document.querySelector(".imageDesign0");
     element.classList.add("imageDesignhide");
@@ -17,7 +18,7 @@ window.onload = function moveToPosition(){
     document.getElementById("welcome").style.transitionDelay = "400ms";
     document.getElementById("welcome").style.transitionDuration = "1000ms";
 
-    // document.getElementById("first").style.display = 'none'; 
+    document.getElementById("first").style.display = 'none'; 
 }
 
 function revert(){
@@ -34,6 +35,7 @@ function revert(){
 
     document.getElementById("overlay").style.opacity = "0";
     document.getElementById("overlay", "imageDesign").style.transitionDuration = "4000ms";
+    document.getElementById("stopo").style.overflow = "auto";
 
     document.getElementById("welcome").style.transitionDuration = "0";
 
@@ -43,3 +45,6 @@ function revert(){
     }, 2500);
 
 }
+
+
+

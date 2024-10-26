@@ -149,6 +149,7 @@ body{
     clip-path: polygon(0 2%, 100% 0%, 100% 98%, 0 100%);
 }
 
+
 /* .holder1::before{
     content: '';
     background-color: rgb(12, 12, 12);
@@ -278,11 +279,18 @@ body{
 
 .track-list::-webkit-scrollbar{
     background-color: rgb(255, 255, 255);
-    width: 10px;
+    border-radius: 50px;
+    width: 7px;
 }
 
 .track-list::-webkit-scrollbar-track{
     background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+}
+
+.track-list::-webkit-scrollbar-thumb{
+    background-color: rgb(221, 30, 238);
+    border-radius: 50px;
 }
 
 .track-item {
@@ -370,7 +378,7 @@ audio {
     content: '';
     height: 650px;
     width: 50%;
-    background-color: rgb(78, 0, 61);
+    background-color: rgb(114, 1, 90);
     position: absolute;
     left: 0;
     /* top: 0; */
@@ -515,4 +523,19 @@ audio {
         margin-bottom: -250px;
         margin-right: -280px;
     }
+}
+
+
+/* in-between1 */
+.main12::after{
+    content: '';
+    height: 650px;
+    width: 50%;
+    background-color: rgb(163, 98, 23);
+    background: l;
+    position: absolute;
+    left: 0;
+    /* top: 0; */
+    z-index: -1;
+    clip-path: polygon(0 0, 100% 0, 96% 100%, 0% 100%);
 }
