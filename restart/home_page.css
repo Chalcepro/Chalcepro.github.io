@@ -155,9 +155,7 @@
     background-size: cover;
     background-position: center;
     color: transparent;
-            
-    /* Clip the background to the text */
-    /* -webkit-background-clip: text; */
+
     background-clip: text;
 
     /* For webkit-based browsers */
