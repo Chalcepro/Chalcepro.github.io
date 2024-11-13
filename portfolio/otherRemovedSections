@@ -1,0 +1,493 @@
+
+
+        <div class="container-fluid" id="Design">
+            <div class="container-fluid p-0 d-flex justify-content-center mt-5 p-2 fs-5" style="background-color: rgba(119, 75, 45, 0.26);">
+                <nav class="navbar px-5">
+                        <ul class="nav d-flex justify-content-center  fw-bolder">
+                            <li class="nav-item">
+                                <a href="#Design" class="nav-link text-white mx-5" aria-current="page">Videos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#Renders" class="nav-link text-white mx-5" aria-current="page">Renders</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#In-between" class="nav-link text-white mx-5" aria-current="page">In-between</a>
+                            </li>
+                        </ul>
+                </nav>
+            </div>
+        </div>
+
+        <!-- Video1 container -->
+        <div class="container-fluid" id="portfolio3"> 
+            <div class="container-fluid p-0 mt-5" id="clippy1" style="background-color: rgb(53, 16, 0);">
+                <div class="row text-start main4">
+                    <nav class="navbar px-5">
+                        <div class="container-fluid justify-content-between px-4 py-3">
+                            <img src="img/Orb.jpg" class="img img-thumbnail border-0 p-0 rounded-5" width="5%" alt="">
+                            <ul class="nav d-flex justify-content-center fw-bold">
+                                <li class="nav-item">
+                                    <a href="#home" class="nav-link text-white" aria-current="page">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#portfolio1" class="nav-link text-white " aria-current="page">Portfolio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#Album" class="nav-link text-white" aria-current="page">My Album</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#Design" class="nav-link text-white" aria-current="page">Designs</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#about" class="nav-link text-white" aria-current="page">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="" class="nav-link text-white" aria-current="page">Contact Me</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                    <div class="col col-6 d-flex align-items-center px-5">
+                        <div class="container-fluid fontStyle p-4 my-4">
+                            <p class="display-6 fw-bold" style="color: rgb(245, 223, 199);">Makima Edit</p>
+                            <p class="fs-5 fontStyle2 text-capitalize" style="color: rgb(252, 242, 227);">Edit made with capcut, clips gotten from <a style="text-decoration: none; color: rgb(252, 194, 177);" class="text-lowercase" href="https://y2mate.com/">Y2mate.come</a> a free online youtube video downloader</p>
+                            <button class="btn fs-5 rounded-2 fw-semibold" style="background-color:rgb(245, 223, 199)" id="ButtonMain">SEE MORE</button>
+                        </div>
+                    </div>
+                    <div class="col d-flex align-items-center justify-content-center" style="overflow: hidden;">
+                        <!-- <img src="/img/" class="img img-thumbnail border-0 p-0" id="imageDesign" width="70%" alt=""> -->
+                        <video src="img/Makima.mp4" class="object-fit-contain border-0 p-0 imageDesign4" controls width="40%"></video>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <!-- end -->
+
+
+        <!-- Video2 container -->
+        <div class="container-fluid" id="portfolio3"> 
+            <div class="container-fluid p-0 mt-5" id="clippy1" style="background-color: rgb(36, 23, 9);">
+                <div class="row text-start main5">
+                    <nav class="navbar px-5">
+                        <div class="container-fluid justify-content-between px-4 py-3">
+                            <img src="img/Orb.jpg" class="img img-thumbnail border-0 p-0 rounded-5" width="5%" alt="">
+                            <ul class="nav d-flex justify-content-center fw-bold">
+                                <li class="nav-item">
+                                    <a href="#home" class="nav-link text-white" aria-current="page">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#portfolio1" class="nav-link text-white " aria-current="page">Portfolio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#Album" class="nav-link text-white" aria-current="page">My Album</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#Design" class="nav-link text-white" aria-current="page">Designs</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#about" class="nav-link text-white" aria-current="page">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="" class="nav-link text-white" aria-current="page">Contact Me</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                    <div class="col col-6 d-flex align-items-center px-5">
+                        <div class="container-fluid fontStyle p-4 my-4">
+                            <p class="display-6 fw-bold" style="color: rgb(198, 229, 235);">Loid Forger Edit</p>
+                            <p class="fs-5 fontStyle2 text-capitalize" style="color: rgb(222, 237, 238);">Edit made with capcut, clips gotten from <a style="text-decoration: none; color: rgb(176, 246, 255);" class="text-lowercase" href="https://y2mate.com/">Y2mate.come</a> a free online youtube video downloader</p>
+                            <button class="btn fs-5 rounded-2 fw-semibold" style="background-color:rgb(198, 229, 235)" id="ButtonMain">SEE MORE</button>
+                        </div>
+                    </div>
+                    <div class="col d-flex align-items-center justify-content-center" style="overflow: hidden;">
+                        <!-- <img src="/img/" class="img img-thumbnail border-0 p-0" id="imageDesign" width="70%" alt=""> -->
+                        <video src="img/doneeeee.mp4" class="object-fit-contain border-0 p-0 imageDesign4" controls width="40%"></video>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <!-- end -->
+
+
+        <!-- Video3 container -->
+        <div class="container-fluid" id="portfolio3"> 
+            <div class="container-fluid p-0 mt-5" id="clippy1" style="background-color: rgb(65, 10, 48);">
+                <div class="row text-start main6">
+                    <nav class="navbar px-5">
+                        <div class="container-fluid justify-content-between px-4 py-3">
+                            <img src="img/Orb.jpg" class="img img-thumbnail border-0 p-0 rounded-5" width="5%" alt="">
+                            <ul class="nav d-flex justify-content-center fw-bold">
+                                <li class="nav-item">
+                                    <a href="#home" class="nav-link text-white" aria-current="page">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#portfolio1" class="nav-link text-white " aria-current="page">Portfolio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#Album" class="nav-link text-white" aria-current="page">My Album</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#Design" class="nav-link text-white" aria-current="page">Designs</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#about" class="nav-link text-white" aria-current="page">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="" class="nav-link text-white" aria-current="page">Contact Me</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                    <div class="col col-6 d-flex align-items-center px-5">
+                        <div class="container-fluid fontStyle p-4 my-4">
+                            <p class="display-6 fw-bold" style="color: rgb(253, 230, 255);">3D Doughnut Model</p>
+                            <p class="fs-5 fontStyle2 text-capitalize" style="color: rgb(253, 235, 255);">Made with blender and my inspiration was gotten from the donut tutorial by BlenderGuru on youtube. Other tutorials where implemented to create the design</p>
+                            <button class="btn fs-5 rounded-2 fw-semibold" style="background-color: rgb(253, 230, 255);" id="ButtonMain">SEE MORE</button>
+                        </div>
+                    </div>
+                    <div class="col d-flex align-items-center justify-content-center" style="overflow: hidden;">
+                        <!-- <img src="/img/" class="img img-thumbnail border-0 p-0" id="imageDesign" width="70%" alt=""> -->
+                        <video src="img/anim.mp4" class="object-fit-contain border-0 p-0 imageDesign3" controls loop width="70%"></video>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <!-- end -->
+
+
+        <!-- renders -->
+        <div class="container-fluid" id="Renders">
+            <div class="container-fluid p-0 d-flex justify-content-center mt-5 p-2 fs-5" style="background-color: rgba(45, 119, 97, 0.26);">
+                <nav class="navbar px-5">
+                        <ul class="nav d-flex justify-content-center  fw-bolder">
+                            <li class="nav-item">
+                                <a href="#Design" class="nav-link text-white mx-5" aria-current="page">Videos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#Renders" class="nav-link text-white mx-5" aria-current="page">Renders</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#In-between" class="nav-link text-white mx-5" aria-current="page">In-between</a>
+                            </li>
+                        </ul>
+                </nav>
+            </div>
+        </div>
+
+
+        <!-- render1 container -->
+        <div class="container-fluid" id="portfolio2"> 
+            <div class="container-fluid p-0 mt-5" id="clippy1" style="background-color: rgb(31, 28, 0);">
+                <div class="row text-start main7">
+                    <nav class="navbar px-5">
+                        <div class="container-fluid justify-content-between px-4 py-3">
+                            <img src="img/Orb.jpg" class="img img-thumbnail border-0 p-0 rounded-5" width="5%" alt="">
+                            <ul class="nav d-flex justify-content-center fw-bold">
+                                <li class="nav-item">
+                                    <a href="#home" class="nav-link text-white" aria-current="page">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#portfolio3" class="nav-link text-white " aria-current="page">Portfolio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#Album" class="nav-link text-white" aria-current="page">My Album</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#Design" class="nav-link text-white" aria-current="page">Designs</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#about" class="nav-link text-white" aria-current="page">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="" class="nav-link text-white" aria-current="page">Contact Me</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                    <div class="col col-6 d-flex align-items-center px-5">
+                        <div class="container-fluid fontStyle p-4 my-4">
+                            <p class="display-6 fw-bold" style="color: rgb(255, 255, 237);">2D/3D Black Hole</p>
+                            <p class="fs-5 fontStyle2 text-capitalize" style="color: rgb(227, 247, 252);">Made with blender. <br> Was trying out a hologram material and got this effect</p>
+                            <button class="btn fs-5 rounded-2 fw-semibold" style="background-color: rgb(255, 255, 237);" id="ButtonMain">SEE MORE</button>
+                        </div>
+                    </div>
+                    <div class="col d-flex align-items-center justify-content-center imageDesign0" style="z-index: 1 !important;">
+                        <img src="img/BLACK HOLE2HD.jpg" class="img img-thumbnail border-0 p-0" id="imageDesign0" width="70%" alt="">
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <!-- end -->
+
+
+        <!-- render2 container -->
+        <div class="container-fluid" id="portfolio3"> 
+            <div class="container-fluid p-0 mt-5" id="clippy1" style="background-color: rgb(17, 17, 17);">
+                <div class="row text-start main8">
+                    <nav class="navbar px-5">
+                        <div class="container-fluid justify-content-between px-4 py-3">
+                            <img src="img/Orb.jpg" class="img img-thumbnail border-0 p-0 rounded-5" width="5%" alt="">
+                            <ul class="nav d-flex justify-content-center fw-bold">
+                                <li class="nav-item">
+                                    <a href="#home" class="nav-link text-white" aria-current="page">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#portfolio1" class="nav-link text-white " aria-current="page">Portfolio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#Album" class="nav-link text-white" aria-current="page">My Album</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#Design" class="nav-link text-white" aria-current="page">Designs</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#about" class="nav-link text-white" aria-current="page">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="" class="nav-link text-white" aria-current="page">Contact Me</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                    <div class="col col-6 d-flex align-items-center px-5">
+                        <div class="container-fluid fontStyle p-4 my-4">
+                            <p class="display-6 fw-bold" style="color: rgb(255, 227, 152);">3D Clock</p>
+                            <p class="fs-5 fontStyle2 text-capitalize" style="color: rgb(236, 234, 220);">This model was made in blender, but the reference was totally different. <br> After making the the numbers and hands, i decided to remix the look to a modern feel</p>
+                            <button class="btn fs-5 rounded-2 fw-semibold" style="background-color: rgb(255, 227, 152);" id="ButtonMain">SEE MORE</button>
+                        </div>
+                    </div>
+                    <div class="col d-flex align-items-center justify-content-center imageDesign1" style="z-index: 1 !important;">
+                        <img src="img/clock.jpg" class="img img-thumbnail border-0 p-0" id="imageDesign" width="70%" alt="">
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <!-- end -->
+
+
+        <!-- render3 container -->
+        <div class="container-fluid" id="portfolio3"> 
+            <div class="container-fluid p-0 mt-5" id="clippy1" style="background-color: rgb(32, 0, 0);">
+                <div class="row text-start main9">
+                    <nav class="navbar px-5">
+                        <div class="container-fluid justify-content-between px-4 py-3">
+                            <img src="img/Orb.jpg" class="img img-thumbnail border-0 p-0 rounded-5" width="5%" alt="">
+                            <ul class="nav d-flex justify-content-center fw-bold">
+                                <li class="nav-item">
+                                    <a href="#home" class="nav-link text-white" aria-current="page">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#portfolio1" class="nav-link text-white " aria-current="page">Portfolio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#Album" class="nav-link text-white" aria-current="page">My Album</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#Design" class="nav-link text-white" aria-current="page">Designs</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#about" class="nav-link text-white" aria-current="page">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="" class="nav-link text-white" aria-current="page">Contact Me</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                    <div class="col col-6 d-flex align-items-center px-5">
+                        <div class="container-fluid fontStyle p-4 my-4">
+                            <p class="display-6 fw-bold" style="color: rgb(255, 227, 152);">Odd Pod</p>
+                            <p class="fs-5 fontStyle2 text-capitalize" style="color: rgb(236, 234, 220);">Made in blender. <br> Created my first smart material and applied it to the model <br>a nice result right?</p>
+                            <button class="btn fs-5 rounded-2 fw-semibold" style="background-color: rgb(255, 227, 152);" id="ButtonMain">SEE MORE</button>
+                        </div>
+                    </div>
+                    <div class="col d-flex align-items-center justify-content-center imageDesign2" style="z-index: 1 !important;">
+                        <img src="img/Cooool.jpg" class="img img-thumbnail border-0 p-0 imageDesign2" width="70%" alt="">
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <!-- end -->
+
+        <!-- in-betweens -->
+        <div class="container-fluid" id="In-between">
+            <div class="container-fluid p-0 d-flex justify-content-center mt-5 p-2 fs-5" style="background-color: rgba(102, 45, 119, 0.26);">
+                <nav class="navbar px-5">
+                        <ul class="nav d-flex justify-content-center  fw-bolder">
+                            <li class="nav-item">
+                                <a href="#Design" class="nav-link text-white mx-5" aria-current="page">Videos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#Renders" class="nav-link text-white mx-5" aria-current="page">Renders</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#In-between" class="nav-link text-white mx-5" aria-current="page">In-between</a>
+                            </li>
+                        </ul>
+                </nav>
+            </div>
+        </div>
+
+
+        <!-- in-between1 container -->
+        <div class="container-fluid" id="portfolio3"> 
+            <div class="container-fluid p-0 mt-5" id="clippy1" style="background-color: rgb(78, 68, 8);">
+                <div class="row text-start main10">
+                    <nav class="navbar px-5">
+                        <div class="container-fluid justify-content-between px-4 py-3">
+                            <img src="img/Orb.jpg" class="img img-thumbnail border-0 p-0 rounded-5" width="5%" alt="">
+                            <ul class="nav d-flex justify-content-center fw-bold">
+                                <li class="nav-item">
+                                    <a href="#home" class="nav-link text-white" aria-current="page">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#portfolio1" class="nav-link text-white " aria-current="page">Portfolio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#Album" class="nav-link text-white" aria-current="page">My Album</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#Design" class="nav-link text-white" aria-current="page">Designs</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#about" class="nav-link text-white" aria-current="page">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="" class="nav-link text-white" aria-current="page">Contact Me</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                    <div class="col col-6 d-flex align-items-center px-5">
+                        <div class="container-fluid fontStyle p-4 my-4">
+                            <p class="display-6 fw-bold" style="color: rgb(255, 227, 152);">3D Crate</p>
+                            <p class="fs-5 fontStyle2 text-capitalize" style="color: rgb(236, 234, 220);">Made in blender. <br> Created my another smart material specially designed for this model but can also be applied to other models</p>
+                            <button class="btn fs-5 rounded-2 fw-semibold" style="background-color: rgb(255, 227, 152);" id="ButtonMain">SEE MORE</button>
+                        </div>
+                    </div>
+                    <div class="col imageDesign2 align-items-center d-flex justify-content-center p-5" style="z-index: 1 !important;">
+
+                        <!-- image carousel -->
+                        <div id="carouselExampleFade" class="carousel slide carousel-fade imageDesign4" style="width: 75%;">
+                            <div class="carousel-inner">
+                              <div class="carousel-item">
+                                <img src="img/Screenshot_2024_10_17-2.png" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item active">
+                                <img src="img/CUBE4.jpg" class="d-block w-100" alt="...">
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                          </div>
+                        <!-- end -->
+
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <!-- end -->
+
+
+        <!-- in-between2 container -->
+        <div class="container-fluid" id="inbetween2"> 
+            <div class="container-fluid p-0 mt-5" id="clippy1" style="background-color: rgb(27, 27, 27);">
+                <div class="row text-start main11">
+                    <nav class="navbar px-5">
+                        <div class="container-fluid justify-content-between px-4 py-3">
+                            <img src="img/Orb.jpg" class="img img-thumbnail border-0 p-0 rounded-5" width="5%" alt="">
+                            <ul class="nav d-flex justify-content-center fw-bold">
+                                <li class="nav-item">
+                                    <a href="#home" class="nav-link text-white" aria-current="page">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#portfolio1" class="nav-link text-white " aria-current="page">Portfolio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#Album" class="nav-link text-white" aria-current="page">My Album</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#Design" class="nav-link text-white" aria-current="page">Designs</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#about" class="nav-link text-white" aria-current="page">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="" class="nav-link text-white" aria-current="page">Contact Me</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                    <div class="col col-6 d-flex align-items-center px-5">
+                        <div class="container-fluid fontStyle p-4 my-4">
+                            <p class="display-6 fw-bold" style="color: rgb(233, 233, 233);">3D Toilet</p>
+                            <p class="fs-5 fontStyle2 text-capitalize" style="color: rgb(216, 216, 216);">Made in blender.<br> Created my a material material. Surprisignly it looks good but still needs a little more adjustments here and there. <br>Not entirely a smart material</p>
+                            <button class="btn fs-5 rounded-2 fw-semibold" style="background-color: rgb(233, 233, 233);" id="ButtonMain">SEE MORE</button>
+                        </div>
+                    </div>
+                    <div class="col d-flex align-items-center justify-content-center imageDesign01" style="z-index: 1 !important;">
+                        <img src="img/toilet.jpg" class="img img-thumbnail border-0 p-0 imageDesign4" width="70%" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end -->
+
+
+        <!-- in-between1 container -->
+        <div class="container-fluid" id="about"> 
+            <div class="container-fluid p-0 mt-5" id="clippy1" style="background-color: rgb(80, 46, 14);">
+                <div class="row text-start main12">
+                    <nav class="navbar px-5">
+                        <div class="container-fluid justify-content-between px-4 py-3">
+                            <img src="img/Orb.jpg" class="img img-thumbnail border-0 p-0 rounded-5" width="5%" alt="">
+                            <ul class="nav d-flex justify-content-center fw-bold">
+                                <li class="nav-item">
+                                    <a href="#home" class="nav-link text-white" aria-current="page">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#portfolio1" class="nav-link text-white " aria-current="page">Portfolio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#Album" class="nav-link text-white" aria-current="page">My Album</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#Design" class="nav-link text-white" aria-current="page">Designs</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="" class="nav-link text-white" aria-current="page">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="" class="nav-link text-white" aria-current="page">Contact Me</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                    <div class="col col-6 d-flex align-items-center px-5">
+                        <div class="container-fluid fontStyle p-4 my-4">
+                            <p class="display-6 fw-bold" style="color: rgb(253, 226, 204);">About Me</p>
+                            <p class="fs-5 fontStyle2 text-capitalize" style="color: rgb(216, 216, 216);">I am a 3D graphics designer, webdeveloper (Frontend), editor, gamer </p>
+                            <button class="btn fs-5 rounded-2 fw-semibold" style="background-color: rgb(253, 226, 204);" id="ButtonMain">SEE MORE</button>
+                        </div>
+                    </div>
+                    <div class="col d-flex align-items-center justify-content-center imageDesign0" style="z-index: 1 !important;">
+                        <img src="img/Folde22r.jpg" class="img img-thumbnail border-0 p-0 imageDesign4" width="70%" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end -->
