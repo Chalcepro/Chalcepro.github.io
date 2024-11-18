@@ -207,58 +207,6 @@ body{
     clip-path: polygon(0 0, 100% 0, 96% 100%, 0% 100%);
 }
 
-.stylish::after{
-    position: absolute;
-    content: '';
-    height: 300px;
-    width: 300px;
-    left: 40%;
-    background-color: rgb(12, 12, 12);
-    top: 30%;
-    rotate: 40deg;
-    border-radius: 57% 43% 62% 39% / 62% 64% 36% 36% ;
-    animation: upyy 13s ease-in-out infinite alternate;
-}
-
-@keyframes upyy{
-    0%{
-        top: 30%;
-    }
-    50%{
-        top: 20%;
-        left: 43%;
-    }
-    100%{
-        top: 35%;
-    }
-}
-
-.stylish::before{
-    position: absolute;
-    content: '';
-    height: 200px;
-    width: 200px;
-    left: 41%;
-    background-color: rgb(12, 12, 12);
-    top: 90%;
-    rotate: -40deg;
-    border-radius: 57% 43% 62% 39% / 62% 64% 36% 36% ;
-    animation: part2 7s ease-in-out infinite alternate;
-}
-
-@keyframes part2{
-    0%{
-        top: 95%;
-    }
-    50%{
-        top: 90%;
-        left: 42%;
-    }
-    100%{
-        top: 95%;
-    }
-}
-
 .imageDesign1{
     clip-path: circle(0);
     transition: 2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
@@ -302,35 +250,6 @@ body{
     clip-path: polygon(0 0, 100% 0, 96% 100%, 0% 100%);
 }
 
-.originall{
-    animation: screenshot 5s ease-in-out infinite alternate;
-}
-
-@keyframes  screenshot{
-    0%{
-        background-size: 1343px;
-    }
-    100%{
-        background-size: 1370px;
-    }
-}
-
-
-.elevator{
-    background: url(/img/ooooooook.jpg) left ;
-    background-size: 1700px;
-    animation: elavator 5s ease-in-out infinite alternate;
-}
-
-@keyframes  elavator{
-    0%{
-        background-size: 1700px;
-    }
-    100%{
-    background-size: 1720px;
-    }
-}
-
 .imageDesign2{
     clip-path: polygon(5% 0, 95% 0, 100% 5%, 100% 95%, 95% 100%, 5% 100%, 0 95%, 0 5%);
 }
@@ -347,61 +266,6 @@ body{
     /* top: 0; */
     z-index: -1;
     clip-path: polygon(0 0, 100% 0, 96% 100%, 0% 100%);
-}
-
-.earpodio::after{
-    position: absolute;
-    content: '';
-    height: 300px;
-    width: 300px;
-    left: 43%;
-    background-color: rgb(14, 13, 13);
-    top: 240%;
-    z-index: 1;
-    rotate: -30deg;
-    border-radius: 10px;
-    animation: gearRotate 5s cubic-bezier(0.075, 0.82, 0.165, 1) infinite alternate;
-}
-
-@keyframes gearRotate {
-    0%{
-        rotate: -30deg;
-    }
-    20%{
-        rotate: -49deg;
-    }
-    40%{
-        rotate: -28deg;
-    }
-    50%{
-        rotate: -40deg;
-    }
-    60%{
-        rotate: -34deg;
-    }
-    70%{
-        rotate: -44deg;
-    }
-    85%{
-        rotate: -26deg;
-    }
-    100%{
-        rotate: -32deg;
-    }
-}
-
-.earpodio::before{
-    position: absolute;
-    content: '';
-    height: 170px;
-    width: 170px;
-    left: 44%;
-    background-color: rgb(14, 13, 13);
-    top: 310%;
-    z-index: 1;
-    rotate: -50deg;
-    border-radius: 10px;
-    animation: gearRotate 9s cubic-bezier(0.075, 0.82, 0.165, 1) infinite alternate;
 }
 
 .imageDesign3{
