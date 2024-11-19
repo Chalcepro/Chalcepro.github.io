@@ -664,15 +664,15 @@ background-color: white;
         z-index: 1;
     }
     100%{
-        display: none;
-        opacity: 0;
+        display: block;
+        opacity:0;
         z-index: -11;
     }
 }
 
 .count-down span{
     animation: bling 3s infinite cubic-bezier(0.075, 0.82, 0.165, 1);
-    animation-delay: calc(var(--i) * -1.95s);
+    animation-delay: calc(var(--i) * -1.92s);
 }
 
 @keyframes bling {
