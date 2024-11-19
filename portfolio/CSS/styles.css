@@ -5,12 +5,12 @@ body{
 }
 
 .hidden-section {
-    opacity: 0; /* Hidden by default */
+    opacity: 0;
     transition: opacity 0.5s ease-in-out;
   }
   
   .hidden-section.visible {
-    opacity: 1; /* Make visible when the 'visible' class is added */
+    opacity: 1;
   }
   
 
