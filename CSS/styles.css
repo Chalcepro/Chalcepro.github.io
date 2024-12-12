@@ -98,7 +98,27 @@ body{
     transition: 500ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
-.imageDesign0 img:hover{
+.imageDesign02 img{
+    z-index: 11;
+    background-color: transparent;
+    transition: 500ms;
+    animation: movement 2s ease-in-out infinite alternate;
+}
+
+@keyframes movement {
+    0%{
+        /* margin-left: 10px; */
+        margin-top: 40px;
+        rotate: 2deg;
+    }
+    100%{
+        /* margin-right: 50px; */
+        margin-top: 60px;
+        rotate: 7deg;
+    }
+}
+
+.imageDesign0 img:hover, .imageDesign02 img:hover{
     scale: 1.05;
     rotate: 2deg;
 }
