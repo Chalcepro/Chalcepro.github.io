@@ -1,3 +1,24 @@
+<?php
+// Start the session to store the playback position
+session_start();
+
+// Check if a new playback position is being set
+if (isset($_POST['audioPosition'])) {
+    $_SESSION['audioPosition'] = $_POST['audioPosition']; // Save position to session
+    $_SESSION['musicPlaying'] = true; // Music is playing
+} elseif (isset($_POST['stopMusic'])) {
+    // Stop music and reset state
+    $_SESSION['musicPlaying'] = false;
+    $_SESSION['audioPosition'] = 0;
+} else {
+    // If no POST data, just output the current position and state
+    echo json_encode([
+        'audioPosition' => isset($_SESSION['audioPosition']) ? $_SESSION['audioPosition'] : 0,
+        'musicPlaying' => isset($_SESSION['musicPlaying']) ? $_SESSION['musicPlaying'] : false
+    ]);
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -29,16 +50,16 @@
                         <img src="img/Orb.jpg" class="img img-thumbnail border-0 p-0 rounded-5" width="5%" alt="">
                         <ul class="nav d-flex justify-content-center fw-bold">
                             <li class="nav-item">
-                                <a href="home.html" class="nav-link text-white" aria-current="page">Home</a>
+                                <a href="home.php" class="nav-link text-white" aria-current="page">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a href="porfolios.html" class="nav-link text-white " aria-current="page">Portfolio</a>
+                                <a href="porfolios.php" class="nav-link text-white " aria-current="page">Portfolio</a>
                             </li>
                             <li class="nav-item">
-                                <a href="about.html" class="nav-link text-white" aria-current="page">About</a>
+                                <a href="about.php" class="nav-link text-white" aria-current="page">About</a>
                             </li>
                             <li class="nav-item">
-                                <a href="contact.html" class="nav-link text-white" aria-current="page">Contact Me</a>
+                                <a href="contact.php" class="nav-link text-white" aria-current="page">Contact Me</a>
                             </li>
                         </ul>
                     </div>
@@ -68,7 +89,8 @@
 <!-- <script>
     alert("Still working on this page");
 </script> -->
-<script>
+<script src="/JavaScript/player.js"></script>
+<!-- <script>
     function playSong(){
             document.getElementById("music").play();
             // setInterval(() => {
@@ -78,7 +100,7 @@
     function stopsong(){
         document.getElementById("music").pause();
     }
-</script>
+</script> -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </html>
 
