@@ -726,6 +726,53 @@ background-color: white;
     clip-path: polygon(0 0, 100% 0, 96% 100%, 0% 100%);
 }
 
+/* about me page image */
+.blockImg{
+    animation: floatUp 3s cubic-bezier(0.075, 0.82, 0.165, 1) forwards;
+}
+
+@keyframes floatUp {
+    0%{
+        margin-top: 500px;
+        opacity: 0;
+    }
+    10%{
+        opacity: 0;
+    }
+}
+
+#clickyy{
+    position: fixed;
+    width: 10%;
+    top: -20px;
+    right: 90px;
+    opacity: 0;
+    display: block;
+    z-index: 11111111111111111111;
+    animation: appear-in 5s cubic-bezier(0.175, 0.885, 0.32, 1) forwards;
+}
+
+@keyframes appear-in {
+    0%{
+        opacity: 0;
+        margin-right: 50px;
+    }
+    100%{
+        opacity: 1;
+        margin-right: 0;
+    }
+}
+
+#clickyy2{
+    position: fixed;
+    scale: 1.2;
+    width: 10%;
+    top: -20px;
+    right: 115px;
+    display: none;
+    z-index: 11111111111111111111;
+    animation: appear-in 5s cubic-bezier(0.175, 0.885, 0.32, 1) forwards;
+}
 /* .bgiM{
     position: absolute;
     margin-left: 500px;
